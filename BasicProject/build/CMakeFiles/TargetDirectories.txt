@@ -1,0 +1,4 @@
+/home/hoanganh/CMake_WS/BasicProject/build/CMakeFiles/rebuild_cache.dir
+/home/hoanganh/CMake_WS/BasicProject/build/CMakeFiles/edit_cache.dir
+/home/hoanganh/CMake_WS/BasicProject/build/CMakeFiles/BasicProject.dir
+/home/hoanganh/CMake_WS/BasicProject/build/CMakeFiles/Library.dir

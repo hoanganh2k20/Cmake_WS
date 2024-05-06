@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/BasicProject.dir/main.cpp.o  -o BasicProject  libLibrary.a 

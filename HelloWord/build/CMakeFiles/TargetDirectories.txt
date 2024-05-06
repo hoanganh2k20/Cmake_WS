@@ -1,0 +1,3 @@
+/home/hoanganh/CMake_WS/HelloWord/build/CMakeFiles/rebuild_cache.dir
+/home/hoanganh/CMake_WS/HelloWord/build/CMakeFiles/edit_cache.dir
+/home/hoanganh/CMake_WS/HelloWord/build/CMakeFiles/HelloWord.dir
