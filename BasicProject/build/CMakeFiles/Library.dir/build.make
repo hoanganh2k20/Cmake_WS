@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoanganh/CMake_WS/BasicProject
+CMAKE_SOURCE_DIR = /home/hoanganh/Cmake_WS/BasicProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoanganh/CMake_WS/BasicProject/build
+CMAKE_BINARY_DIR = /home/hoanganh/Cmake_WS/BasicProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Library.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Library.dir/flags.make
 
 CMakeFiles/Library.dir/my_lib.cpp.o: CMakeFiles/Library.dir/flags.make
 CMakeFiles/Library.dir/my_lib.cpp.o: ../my_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoanganh/CMake_WS/BasicProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Library.dir/my_lib.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/my_lib.cpp.o -c /home/hoanganh/CMake_WS/BasicProject/my_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hoanganh/Cmake_WS/BasicProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Library.dir/my_lib.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/my_lib.cpp.o -c /home/hoanganh/Cmake_WS/BasicProject/my_lib.cpp
 
 CMakeFiles/Library.dir/my_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/my_lib.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoanganh/CMake_WS/BasicProject/my_lib.cpp > CMakeFiles/Library.dir/my_lib.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hoanganh/Cmake_WS/BasicProject/my_lib.cpp > CMakeFiles/Library.dir/my_lib.cpp.i
 
 CMakeFiles/Library.dir/my_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/my_lib.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoanganh/CMake_WS/BasicProject/my_lib.cpp -o CMakeFiles/Library.dir/my_lib.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hoanganh/Cmake_WS/BasicProject/my_lib.cpp -o CMakeFiles/Library.dir/my_lib.cpp.s
 
 # Object files for target Library
 Library_OBJECTS = \
@@ -80,7 +80,7 @@ Library_EXTERNAL_OBJECTS =
 libLibrary.a: CMakeFiles/Library.dir/my_lib.cpp.o
 libLibrary.a: CMakeFiles/Library.dir/build.make
 libLibrary.a: CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hoanganh/CMake_WS/BasicProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hoanganh/Cmake_WS/BasicProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLibrary.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/Library.dir/clean:
 .PHONY : CMakeFiles/Library.dir/clean
 
 CMakeFiles/Library.dir/depend:
-	cd /home/hoanganh/CMake_WS/BasicProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoanganh/CMake_WS/BasicProject /home/hoanganh/CMake_WS/BasicProject /home/hoanganh/CMake_WS/BasicProject/build /home/hoanganh/CMake_WS/BasicProject/build /home/hoanganh/CMake_WS/BasicProject/build/CMakeFiles/Library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hoanganh/Cmake_WS/BasicProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hoanganh/Cmake_WS/BasicProject /home/hoanganh/Cmake_WS/BasicProject /home/hoanganh/Cmake_WS/BasicProject/build /home/hoanganh/Cmake_WS/BasicProject/build /home/hoanganh/Cmake_WS/BasicProject/build/CMakeFiles/Library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Library.dir/depend
 

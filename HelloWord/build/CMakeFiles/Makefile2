@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hoanganh/CMake_WS/HelloWord
+CMAKE_SOURCE_DIR = /home/hoanganh/Cmake_WS/HelloWord
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hoanganh/CMake_WS/HelloWord/build
+CMAKE_BINARY_DIR = /home/hoanganh/Cmake_WS/HelloWord/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/HelloWord.dir/clean
 CMakeFiles/HelloWord.dir/all:
 	$(MAKE) -f CMakeFiles/HelloWord.dir/build.make CMakeFiles/HelloWord.dir/depend
 	$(MAKE) -f CMakeFiles/HelloWord.dir/build.make CMakeFiles/HelloWord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hoanganh/CMake_WS/HelloWord/build/CMakeFiles --progress-num=1,2 "Built target HelloWord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hoanganh/Cmake_WS/HelloWord/build/CMakeFiles --progress-num=1,2 "Built target HelloWord"
 .PHONY : CMakeFiles/HelloWord.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HelloWord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoanganh/CMake_WS/HelloWord/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoanganh/Cmake_WS/HelloWord/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HelloWord.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoanganh/CMake_WS/HelloWord/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hoanganh/Cmake_WS/HelloWord/build/CMakeFiles 0
 .PHONY : CMakeFiles/HelloWord.dir/rule
 
 # Convenience name for target.
